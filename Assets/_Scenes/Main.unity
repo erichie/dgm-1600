@@ -294,6 +294,10 @@ Prefab:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 05f7ab4b58f5b39439fb3c403dea756c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83bcc15ca84c4304596f1d6f9dee0113, type: 2}
     m_RemovedComponents:
     - {fileID: 11100000, guid: 05f7ab4b58f5b39439fb3c403dea756c, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 05f7ab4b58f5b39439fb3c403dea756c, type: 3}
@@ -433,7 +437,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 1
-  m_Color: {r: .367647052, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: .255172014, b: 1, a: 1}
   m_Intensity: 4
   m_Range: 10
   m_SpotAngle: 30
